@@ -12,10 +12,12 @@ import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-import { ChatComponent } from './components/chat/chat/chat.component';
 
 // servicios /////////////////////////////////////////////////////////////////////////////////////
 import { ChatService } from './services/chat.service';
+
+// componentes
+import { ChatComponent } from './components/chat/chat/chat.component';
 import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
